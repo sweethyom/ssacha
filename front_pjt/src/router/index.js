@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import HeroView from '@/views/HeroView.vue'
+import VideoArticleView from '@/views/VideoArticleView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -14,7 +15,12 @@ const router = createRouter({
       path: '/hero',
       name: 'hero',
       component: HeroView,
-    }
+    },
+    {
+      path: '/video',
+      name: 'VideoArticleView',
+      component: VideoArticleView
+    },
     // {
     //   path: '/about',
     //   name: 'about',

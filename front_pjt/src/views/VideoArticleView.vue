@@ -1,12 +1,10 @@
 <template>
   <div>
-    <HomeList />
+    <h1>게시글 목록</h1>
   </div>
 </template>
 
 <script setup>
-import HomeList from '@/components/common/HomeList.vue';
-
 
 </script>
 

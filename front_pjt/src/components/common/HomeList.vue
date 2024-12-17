@@ -10,8 +10,8 @@
 </template>
 
 <script setup>
-import HomeListLiveList from '@/components/HomeListLiveList.vue';
-import HomeListVideoList from '@/components/HomeListVideoList.vue';
+import HomeListLiveList from '@/components/common/HomeListLiveList.vue';
+import HomeListVideoList from '@/components/common/HomeListVideoList.vue';
 import { ref } from 'vue';
 
 const liveItems = ref([
